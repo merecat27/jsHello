@@ -95,5 +95,7 @@ function song() {
 
 // combine() returns the formatted message to print
 function combine() {
-  
+  return greet() + "\nHere's a random number: " + number() + "\nCheck out this song: " + song();
 }
+
+console.log(combine());
